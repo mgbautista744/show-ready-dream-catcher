@@ -9,7 +9,7 @@ const steps = [
   },
   {
     icon: UserCheck,
-    title: "We Match You with a Vetted Pro",
+    title: "We Send Over a Vetted Pro",
     description: "We coordinate with licensed, trusted local contractors — no searching, no ghosting."
   },
   {
