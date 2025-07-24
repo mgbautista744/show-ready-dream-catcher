@@ -15,37 +15,44 @@ const services = [
   {
     icon: Paintbrush,
     title: "Interior & Exterior Paint",
-    description: "Fresh coats that make properties shine"
+    description: "Fresh coats that make properties shine",
+    color: "from-blue-500 to-cyan-500"
   },
   {
     icon: Hammer,
-    title: "Drywall & Wall Repairs",
-    description: "Smooth walls, perfect finishes"
+    title: "Drywall & Wall Repairs", 
+    description: "Smooth walls, perfect finishes",
+    color: "from-orange-500 to-red-500"
   },
   {
     icon: Lightbulb,
     title: "Cosmetic Fixes",
-    description: "Light fixtures, trim, hardware updates"
+    description: "Light fixtures, trim, hardware updates",
+    color: "from-yellow-500 to-orange-500"
   },
   {
     icon: Sparkles,
     title: "Deep Cleaning & Junk Removal",
-    description: "Move-in ready cleanliness"
+    description: "Move-in ready cleanliness",
+    color: "from-green-500 to-emerald-500"
   },
   {
     icon: TreePine,
     title: "Curb Appeal Enhancements",
-    description: "First impressions that wow buyers"
+    description: "First impressions that wow buyers",
+    color: "from-emerald-500 to-green-600"
   },
   {
     icon: Home,
     title: "Flooring Repairs",
-    description: "Beautiful floors that showcase well"
+    description: "Beautiful floors that showcase well",
+    color: "from-purple-500 to-indigo-500"
   },
   {
     icon: Package,
     title: "Pre-Staging Prep",
-    description: "Ready for professional staging"
+    description: "Ready for professional staging",
+    color: "from-pink-500 to-rose-500"
   }
 ];
 
@@ -64,13 +71,14 @@ export function Services() {
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className="hover-lift animate-slide-up border-none shadow-lg" style={{ animationDelay: `${index * 0.1}s` }}>
-                <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 bg-gradient-construction rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-8 h-8 text-white" />
+              <Card key={index} className="hover-lift animate-slide-up border-none shadow-lg group cursor-pointer overflow-hidden" style={{ animationDelay: `${index * 0.1}s` }}>
+                <CardContent className="p-6 text-center relative">
+                  <div className={`w-16 h-16 bg-gradient-to-r ${service.color} rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                    <Icon className="w-8 h-8 text-white drop-shadow-sm" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">{service.title}</h3>
                   <p className="text-muted-foreground text-sm">{service.description}</p>
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </CardContent>
               </Card>
             );
