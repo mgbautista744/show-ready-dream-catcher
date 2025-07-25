@@ -31,12 +31,6 @@ const services = [
     color: "from-yellow-500 to-orange-500"
   },
   {
-    icon: Sparkles,
-    title: "Deep Cleaning & Junk Removal",
-    description: "Move-in ready cleanliness",
-    color: "from-green-500 to-emerald-500"
-  },
-  {
     icon: TreePine,
     title: "Curb Appeal Enhancements",
     description: "First impressions that wow buyers",
