@@ -18,7 +18,7 @@ export function Contact() {
             <CardContent className="p-8 md:p-12">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <h3 className="text-2xl font-bold mb-6 text-white">Dream Catcher Construction</h3>
+                  <h3 className="text-2xl font-bold mb-6 text-white">Professional Handymen and Remodeling</h3>
                   
                   <div className="space-y-4 mb-8">
                     <a href="tel:650-296-2564" className="flex items-center space-x-3 text-white hover:text-construction transition-colors group">

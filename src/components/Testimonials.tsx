@@ -3,7 +3,7 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Dream Catcher helped me prep a listing with less than a week's notice. Everything was done professionally, and we had multiple offers over asking.",
+    quote: "Professional Handymen and Remodeling helped me prep a listing with less than a week's notice. Everything was done professionally, and we had multiple offers over asking.",
     author: "Local Realtor",
     location: "Burlingame",
     rating: 5

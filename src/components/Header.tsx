@@ -7,10 +7,10 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-construction rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-sm">DC</span>
+            <span className="text-white font-bold text-sm">PH</span>
           </div>
           <div>
-            <h1 className="text-xl font-bold text-foreground">Dream Catcher Construction</h1>
+            <h1 className="text-xl font-bold text-foreground">Professional Handymen and Remodeling</h1>
             <p className="text-sm text-muted-foreground">Fast, Market-Ready Home Repairs</p>
           </div>
         </div>
