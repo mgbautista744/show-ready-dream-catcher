@@ -3,7 +3,7 @@ import { Clock, Shield, MessageCircle, DollarSign, Wrench, Award } from "lucide-
 const benefits = [{
   icon: Clock,
   title: "Fast Turnarounds",
-  description: "We understand the urgency of hitting your listing date. Our network moves quickly — even for last-minute jobs.",
+  description: "We understand the urgency of hitting your listing date and minimizing holding costs. Our network moves quickly — even for last-minute jobs.",
   gradient: "from-blue-500 via-cyan-500 to-teal-500",
   bgPattern: "bg-gradient-to-br from-blue-50 to-cyan-50"
 }, {
