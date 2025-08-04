@@ -9,7 +9,7 @@ const benefits = [{
 }, {
   icon: DollarSign,
   title: "Cost-Effective Work",
-  description: "We focus on the updates that maximize ROI — not unnecessary remodels. Great results without overspending.",
+  description: "We focus on updates that maximize ROI, keep material costs low - without sacrificing on quality. Great results without overspending.",
   gradient: "from-amber-500 via-orange-500 to-red-500",
   bgPattern: "bg-gradient-to-br from-amber-50 to-orange-50"
 }, {
