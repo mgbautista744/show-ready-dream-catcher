@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 120 40% 35%;
+    --primary: 213 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 30% 60%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 213 30% 85%;
+    --secondary-foreground: 213 50% 25%;
 
-    --construction: 120 45% 25%;
+    --construction: 213 75% 45%;
     --construction-foreground: 0 0% 100%;
 
-    --trust: 25 60% 45%;
+    --trust: 213 60% 65%;
     --trust-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
@@ -115,7 +115,7 @@ All colors MUST be HSL.
   }
 
   .gradient-construction {
-    background: linear-gradient(135deg, hsl(var(--construction)), hsl(120 50% 35%));
+    background: linear-gradient(135deg, hsl(var(--construction)), hsl(213 85% 55%));
   }
 
   .gradient-hero {

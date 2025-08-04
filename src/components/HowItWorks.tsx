@@ -8,7 +8,7 @@ const steps = [
   {
     icon: MessageSquare,
     title: "Tell Us What the Home Needs",
-    description: "Minor repairs? Paint refresh? Staging prep? We'll take it from there.",
+    description: "Minor repairs? Paint refresh? Project management? We'll take it from there.",
     image: processConsultation,
     gradient: "from-blue-500 via-indigo-500 to-purple-500",
     accent: "bg-blue-500"
@@ -16,7 +16,7 @@ const steps = [
   {
     icon: UserCheck,
     title: "We Send Over a Vetted Pro",
-    description: "We coordinate with licensed, trusted local contractors — no searching, no ghosting.",
+    description: "We coordinate with trusted local professionals — no searching, no ghosting.",
     image: processWork,
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",
     accent: "bg-emerald-500"

@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Burlingame Interior Refresh", 
     timeline: "Completed in 3 days",
-    services: ["Interior Paint", "Flooring Repairs", "Staging Prep"],
+    services: ["Interior Paint", "Flooring Repairs", "Project Management"],
     before: beforeInterior,
     after: afterInterior,
     result: "Listed same week, multiple offers"

@@ -44,8 +44,8 @@ const services = [
   },
   {
     icon: Package,
-    title: "Pre-Staging Prep",
-    description: "Ready for professional staging",
+    title: "Project Management",
+    description: "Dedicated manager to each project",
     color: "from-pink-500 to-rose-500"
   }
 ];

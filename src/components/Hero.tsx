@@ -34,7 +34,7 @@ export function Hero() {
           
           <p className="text-xl md:text-2xl mb-8 leading-relaxed text-white/90">
             Get homes show-ready — fast, clean, and stress-free. We connect realtors and homeowners 
-            with reliable, licensed contractors who move quickly and get it done right.
+            with reliable professionals who move quickly and get it done right.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
