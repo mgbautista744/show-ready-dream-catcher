@@ -8,8 +8,8 @@ const benefits = [{
   bgPattern: "bg-gradient-to-br from-blue-50 to-cyan-50"
 }, {
   icon: Shield,
-  title: "Licensed, Vetted Contractors",
-  description: "Every pro in our network is screened for quality, reliability, and professionalism. No sketchy vendors here.",
+  title: "Quality Workmanship",
+  description: "Every professional in our network is screened for quality, reliability, and craftsmanship. We ensure top-tier results.",
   gradient: "from-emerald-500 via-green-500 to-lime-500",
   bgPattern: "bg-gradient-to-br from-emerald-50 to-green-50"
 }, {
