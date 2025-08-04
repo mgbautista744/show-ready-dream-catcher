@@ -7,18 +7,6 @@ const benefits = [{
   gradient: "from-blue-500 via-cyan-500 to-teal-500",
   bgPattern: "bg-gradient-to-br from-blue-50 to-cyan-50"
 }, {
-  icon: Shield,
-  title: "Quality Workmanship",
-  description: "Every professional in our network is screened for quality, reliability, and craftsmanship. We ensure top-tier results.",
-  gradient: "from-emerald-500 via-green-500 to-lime-500",
-  bgPattern: "bg-gradient-to-br from-emerald-50 to-green-50"
-}, {
-  icon: MessageCircle,
-  title: "Clear Communication",
-  description: "You'll have one point of contact for all your project updates. We keep it simple and efficient.",
-  gradient: "from-purple-500 via-violet-500 to-indigo-500",
-  bgPattern: "bg-gradient-to-br from-purple-50 to-violet-50"
-}, {
   icon: DollarSign,
   title: "Cost-Effective Work",
   description: "We focus on the updates that maximize ROI — not unnecessary remodels. Great results without overspending.",
@@ -30,6 +18,18 @@ const benefits = [{
   description: "You don't need to chase contractors. We coordinate everything — and keep you updated along the way.",
   gradient: "from-slate-500 via-gray-500 to-zinc-500",
   bgPattern: "bg-gradient-to-br from-slate-50 to-gray-50"
+}, {
+  icon: Shield,
+  title: "Quality Workmanship",
+  description: "Every professional in our network is screened for quality, reliability, and craftsmanship. We ensure top-tier results.",
+  gradient: "from-emerald-500 via-green-500 to-lime-500",
+  bgPattern: "bg-gradient-to-br from-emerald-50 to-green-50"
+}, {
+  icon: MessageCircle,
+  title: "Clear Communication",
+  description: "You'll have one point of contact for all your project updates. We keep it simple and efficient.",
+  gradient: "from-purple-500 via-violet-500 to-indigo-500",
+  bgPattern: "bg-gradient-to-br from-purple-50 to-violet-50"
 }, {
   icon: Award,
   title: "Accountable, Always",
