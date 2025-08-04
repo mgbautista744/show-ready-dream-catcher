@@ -1,17 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star } from "lucide-react";
 import heroImage from "@/assets/hero-construction.jpg";
-
 export function Hero() {
-  return (
-    <section className="relative min-h-[90vh] flex items-center">
+  return <section className="relative min-h-[90vh] flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Professional construction work on Bay Area home" 
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Professional construction work on Bay Area home" className="w-full h-full object-cover" />
         <div className="absolute inset-0 gradient-hero"></div>
       </div>
       
@@ -20,11 +14,9 @@ export function Hero() {
         <div className="max-w-3xl text-white animate-fade-in">
           <div className="flex items-center space-x-2 mb-4">
             <div className="flex items-center space-x-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-construction text-construction" />
-              ))}
+              {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-construction text-construction" />)}
             </div>
-            <span className="text-construction font-semibold">Trusted by Bay Area Realtors</span>
+            <span className="text-construction font-semibold">Trusted by Bay Area Realtors and Investors</span>
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
@@ -32,10 +24,7 @@ export function Hero() {
             <span className="text-construction"> Fast</span>, Market-Ready Home Repairs
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 leading-relaxed text-white/90">
-            Get homes show-ready — fast, clean, and stress-free. We connect realtors and homeowners 
-            with reliable professionals who move quickly and get it done right.
-          </p>
+          <p className="text-xl md:text-2xl mb-8 leading-relaxed text-white/90">We handle property prep and light remodels—on time and on budget—so you can focus on closing deals and maximizing ROI.</p>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="construction" size="lg" className="text-lg px-8">
@@ -52,6 +41,5 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
