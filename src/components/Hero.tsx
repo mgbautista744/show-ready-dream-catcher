@@ -1,8 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star } from "lucide-react";
 import heroImage from "@/assets/hero-construction.jpg";
+
 export function Hero() {
-  return <section className="relative min-h-[90vh] flex items-center">
+  return (
+    <section className="relative min-h-[90vh] flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Professional construction work on Bay Area home" className="w-full h-full object-cover" />
@@ -14,7 +17,9 @@ export function Hero() {
         <div className="max-w-3xl text-white animate-fade-in">
           <div className="flex items-center space-x-2 mb-4">
             <div className="flex items-center space-x-1">
-              {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-construction text-construction" />)}
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-construction text-construction" />
+              ))}
             </div>
             <span className="text-construction font-semibold">Trusted by Bay Area Realtors and Investors</span>
           </div>
@@ -28,7 +33,7 @@ export function Hero() {
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="construction" size="lg" className="text-lg px-8">
-              Book Free Consultation
+              Schedule Free Walkthrough
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 bg-white/10 border-white/30 text-white hover:bg-white/20">
@@ -41,5 +46,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 }
